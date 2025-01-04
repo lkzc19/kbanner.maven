@@ -8,6 +8,9 @@ class KBannerConfig {
     var location: String = "banner.txt"
 }
 
+/**
+ * A printing banner plugin for ktor
+ */
 val KBanner = createApplicationPlugin(
     name = "KBanner",
     createConfiguration = ::KBannerConfig
